@@ -1,0 +1,49 @@
+.header, .heading{
+    color: black;
+    box-shadow: 5px 5px 5px rgb(100, 245, 245 );
+    background-color: rgb(100, 245, 245);
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.ytimg.com/vi/M6opE6ilfhU/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.link {
+    font-size: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 7px;
+}
+.bb{
+    font-size: 20px;
+    background: grey;
+    border-radius: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 3px;
+    width: 100px;
+    float: right;
+    border: 1px solid black;
+}
+
+.link:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+canvas{
+    border: 2px solid black;
+    border-radius: 7px;
+}
